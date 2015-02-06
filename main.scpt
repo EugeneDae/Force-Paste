@@ -1,4 +1,4 @@
-set numbers_key_codes to {29, 18, 19, 20, 21, 23, 22, 26, 28, 25}
+set numbers_key_codes to {82, 83, 84, 85, 86, 87, 88, 89, 91, 92}
 
 set input to do shell script "pbpaste"
 
@@ -6,7 +6,6 @@ if (input is not missing value) then
 	tell application "System Events"
 		repeat with char in the characters of input
 			try
-				set test to char as number
 				key code numbers_key_codes's item (char + 1)
 			on error
 				keystroke char
