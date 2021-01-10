@@ -1,7 +1,7 @@
 Force Paste.app (macOS)
 ===============
 
-### Important note: if you're getting a "not allowed to send keystrokes" error, simply add or re-add Force Paste.app to System Preferences > Security & Privacy > Accessibility. See [issue #7](https://github.com/EugeneDae/Force-Paste/issues/7) and [issue #12 about Big Sur](https://github.com/EugeneDae/Force-Paste/issues/12). Force Paste should work fine in Big Sur.
+### Important note: if you're getting a "not allowed to send keystrokes" error, simply add Force Paste.app to System Preferences > Security & Privacy > Accessibility. If Force Paste doesn't work in macOS Big Sur, try removing it from System Preferences > Security & Privacy > Accessibility and adding it again. See [issue #7](https://github.com/EugeneDae/Force-Paste/issues/7) and [issue #12 about Big Sur](https://github.com/EugeneDae/Force-Paste/issues/12). 
 
 Little AppleScript application for macOS which allows pasting text even when it’s not allowed (password dialogs etc). It uses virtual keyboard to type in the text from your clipboard. In other words, it tricks the program that asks for your input into thinking that you’re actually typing on your keyboard. See also [the blog post with discussion](https://dae.me/blog/1741/paste-text-even-when-prohibited-in-macos-password-dialogs-etc/).
 
