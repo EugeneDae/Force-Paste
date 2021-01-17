@@ -1,4 +1,4 @@
-set numbers_key_codes to {82, 83, 84, 85, 86, 87, 88, 89, 91, 92}
+set numbers_key_codes to {29, 18, 19, 20, 21, 23, 22, 26, 28, 25}
 
 set input to do shell script "pbpaste"
 
@@ -13,3 +13,4 @@ if (input is not missing value and length of input is less than 250) then
 		end repeat
 	end tell
 end if
+
