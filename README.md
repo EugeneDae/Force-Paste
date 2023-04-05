@@ -1,11 +1,11 @@
 Force Paste.app (macOS)
 ===============
 
-### Important note: if you're getting a "not allowed to send keystrokes" error, simply add Force Paste.app to System Preferences > Security & Privacy > Accessibility. If Force Paste doesn't work in macOS Big Sur, try removing it from System Preferences > Security & Privacy > Accessibility and adding it again. See [issue #7](https://github.com/EugeneDae/Force-Paste/issues/7) and [issue #12 about Big Sur](https://github.com/EugeneDae/Force-Paste/issues/12). 
-
 Little AppleScript application for macOS which allows pasting text even when it’s not allowed (password dialogs etc). It uses virtual keyboard to type in the text from your clipboard. In other words, it tricks the program that asks for your input into thinking that you’re actually typing on your keyboard. See also [the blog post with discussion](https://dae.me/blog/1741/paste-text-even-when-prohibited-in-macos-password-dialogs-etc/).
 
-### [DOWNLOAD (ZIP, ≈15KB)](https://github.com/EugeneDae/Force-Paste/releases/download/1.0.1/Force-Paste.zip)
+### Install
+
+1. [Download (ZIP, ≈15KB)](https://github.com/EugeneDae/Force-Paste/releases/download/1.0.1/Force-Paste.zip) app and drag it to `/Applications`.
 
 Alternatively, you can install it through [Homebrew](https://brew.sh/):
 
@@ -13,7 +13,17 @@ Alternatively, you can install it through [Homebrew](https://brew.sh/):
 brew cask install force-paste
 ```
 
-After installation, make sure to put the app in the Dock. Advanced users familiar with the Scripts menu can put it there to save space in the Dock.
+2. To make Force Paste work on MacOS Ventura, go to Settings -> Security & Privacy -> Privacy -> Accessibility:
+
+- Force Paste (/Applications/Force Paste.app)
+- applet (/Applications/Force Paste.app/Contents/MacOS/applet)
+- Script Editor (/Applications/Utilities/Script Editor)
+
+(click che `+` sign and press `shift` + `cmd` + `G` and paste the above routes).
+
+3. Launch the app (you might have to right-click and select Open to confirm you want to run it).
+
+*Important note:* if you're getting a "not allowed to send keystrokes" error, uninstall and repeat installation. 
 
 ### Usage
 
