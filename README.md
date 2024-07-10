@@ -10,7 +10,7 @@ Little AppleScript application for macOS which allows pasting text even when itâ
 Alternatively, you can install it through [Homebrew](https://brew.sh/):
 
 ```sh
-brew cask install force-paste
+brew install force-paste
 ```
 
 2. To make Force Paste work on MacOS Ventura, go to Settings -> Security & Privacy -> Privacy -> Accessibility:
