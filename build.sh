@@ -11,6 +11,7 @@ osacompile -o "$APP_NAME" -x "main.scpt"
 /usr/libexec/PlistBuddy -c "Add NSHumanReadableCopyright String '© 2015 https://github.com/EugeneDae/Force-Paste/'" "$INFO_PLIST"
 
 rm -f "$APP_NAME/Contents/Resources/applet.icns"
+rm -f "$APP_NAME/Contents/Resources/Assets.car"
 cp "icon.icns" "$APP_NAME/Contents/Resources/"
 
 if [ -f "Force-Paste.zip" ]; then
